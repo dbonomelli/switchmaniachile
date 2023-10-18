@@ -1,0 +1,21 @@
+.navbar-custom {
+    background-color: #A11E1E !important;
+    height: 100px;
+}
+.nav-title{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.mobile-device{
+    background-color: blue !important;
+}
+
+@media (max-width: 990px){
+    .navbar-collapse{
+        margin-top: 1%;
+        background-color: #A11E1E;
+    }
+    .nav-title{
+        font-size: 20px;
+    }
+}

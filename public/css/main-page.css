@@ -2,6 +2,18 @@ h1 {
     margin-top: 1%;
     color: #FFFFFF;
     font-size: 17px;
+    font-weight: bold;
+}
+a {
+    margin-top: 1%;
+    color: #FFFFFF;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .searchbar-holder{
@@ -16,6 +28,7 @@ h1 {
 .title-top{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 12px;
 }
 
 .separation{

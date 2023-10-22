@@ -1,4 +1,4 @@
-@extends('components.layout')
+@extends('layouts.layout')
 
 @section('title', 'Bienvenidos')
 
@@ -16,7 +16,7 @@
         <div class="row" style="flex-direction: row">
             <div class="title-top">
                 <h1>Nintendo Switch</h1>
-                <h1>Ver todo</h1>
+                <a href="#">Ver todo</a>
             </div>
         </div>
         <div class="row justify-content-between">
